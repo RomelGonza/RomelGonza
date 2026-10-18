@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="351" viewBox="0 0 1200 351" role="img" aria-labelledby="stats-title-l">
+  <title id="stats-title-l">Romel's GitHub stats: 1,428 contributions in the last 12 months</title>
+  <defs>
+    <clipPath id="st-clip-l"><rect width="1200" height="351" rx="20"/></clipPath>
+    <radialGradient id="st-glow-l" cx="0.08" cy="0" r="0.9">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar-grad-l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+  </style>
+
+  <g clip-path="url(#st-clip-l)">
+    <rect width="1200" height="351" fill="#f8fafc"/>
+    <rect width="1200" height="351" fill="url(#st-glow-l)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="350" rx="20" fill="none" stroke="#e2e8f0"/>
+
+  <!-- ── LEFT SIDE: STATS & TILES ── -->
+  <g transform="translate(40, 42)">
+    <text x="0" y="0" class="mono" font-size="12" font-weight="700" letter-spacing="1.4" fill="#0284c7">ACTIVITY · LAST 12 MONTHS</text>
+    
+    <g transform="translate(0, 48)">
+      <text x="0" y="0" class="sans" font-size="46" font-weight="800" fill="#0f172a" letter-spacing="-1">1,428</text>
+      <text x="145" y="-6" class="sans" font-size="16" font-weight="500" fill="#64748b">contributions</text>
+    </g>
+
+    <!-- 6 Tiles (2 rows x 3 cols) -->
+    <g transform="translate(0, 78)">
+      <!-- Row 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="170" height="68" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="16" y="24" class="mono" font-size="10.5" fill="#0284c7">⚡ CURRENT STREAK</text>
+        <text x="16" y="50" class="sans" font-size="20" font-weight="700" fill="#0f172a">1 <tspan font-size="12" font-weight="400" fill="#64748b">day</tspan></text>
+      </g>
+
+      <g transform="translate(182, 0)">
+        <rect width="170" height="68" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="16" y="24" class="mono" font-size="10.5" fill="#059669">🏆 LONGEST STREAK</text>
+        <text x="16" y="50" class="sans" font-size="20" font-weight="700" fill="#0f172a">24 <tspan font-size="12" font-weight="400" fill="#64748b">days</tspan></text>
+      </g>
+
+      <g transform="translate(364, 0)">
+        <rect width="170" height="68" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="16" y="24" class="mono" font-size="10.5" fill="#6366f1">⎇ COMMITS</text>
+        <text x="16" y="50" class="sans" font-size="20" font-weight="700" fill="#0f172a">312 <tspan font-size="12" font-weight="400" fill="#64748b">past year</tspan></text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 80)">
+        <rect width="170" height="68" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="16" y="24" class="mono" font-size="10.5" fill="#0284c7">✦ ALL-TIME</text>
+        <text x="16" y="50" class="sans" font-size="20" font-weight="700" fill="#0f172a">1,428 <tspan font-size="12" font-weight="400" fill="#64748b">since 2023</tspan></text>
+      </g>
+
+      <g transform="translate(182, 80)">
+        <rect width="170" height="68" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="16" y="24" class="mono" font-size="10.5" fill="#059669">📊 BEST WEEK</text>
+        <text x="16" y="50" class="sans" font-size="20" font-weight="700" fill="#0f172a">142 <tspan font-size="12" font-weight="400" fill="#64748b">in 7 days</tspan></text>
+      </g>
+
+      <g transform="translate(364, 80)">
+        <rect width="170" height="68" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="16" y="24" class="mono" font-size="10.5" fill="#7c3aed">⏱ ON GITHUB</text>
+        <text x="16" y="50" class="sans" font-size="20" font-weight="700" fill="#0f172a">3 <tspan font-size="12" font-weight="400" fill="#64748b">years</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ── RIGHT SIDE: WEEKLY CONTRIBUTIONS HISTOGRAM ── -->
+  <g transform="translate(630, 42)">
+    <text x="0" y="0" class="mono" font-size="12" font-weight="700" letter-spacing="1.4" fill="#64748b">WEEKLY CONTRIBUTIONS</text>
+    <text x="260" y="32" class="mono" font-size="11" fill="#64748b" text-anchor="middle">peak 142</text>
+
+    <!-- Histogram Area (52 weeks) -->
+    <g transform="translate(0, 44)">
+      <line x1="0" y1="140" x2="520" y2="140" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3 3"/>
+      
+      <!-- Active Activity Bars -->
+      <rect x="0" y="60" width="7" height="124" rx="3.5" fill="url(#bar-grad-l)"/>
+      <rect x="10" y="130" width="7" height="54" rx="3.5" fill="url(#bar-grad-l)"/>
+      <rect x="20" y="160" width="7" height="24" rx="3.5" fill="#0284c7"/>
+      <rect x="30" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="40" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="50" y="150" width="7" height="34" rx="3.5" fill="#0284c7"/>
+      <rect x="60" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="70" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="80" y="160" width="7" height="24" rx="3.5" fill="#0284c7"/>
+      <rect x="90" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="100" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="110" y="155" width="7" height="29" rx="3.5" fill="#0284c7"/>
+      <rect x="120" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="130" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="140" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="150" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="160" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="170" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="180" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="190" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="200" y="90" width="7" height="94" rx="3.5" fill="#6366f1"/>
+      <rect x="210" y="44" width="7" height="140" rx="3.5" fill="url(#bar-grad-l)"/>
+      <rect x="220" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="230" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="240" y="50" width="7" height="134" rx="3.5" fill="url(#bar-grad-l)"/>
+      <rect x="250" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="260" y="10" width="7" height="174" rx="3.5" fill="url(#bar-grad-l)"/>
+      <rect x="270" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="280" y="70" width="7" height="114" rx="3.5" fill="url(#bar-grad-l)"/>
+      <rect x="290" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="300" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="310" y="90" width="7" height="94" rx="3.5" fill="#6366f1"/>
+      <rect x="320" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="330" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="340" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="350" y="130" width="7" height="54" rx="3.5" fill="#6366f1"/>
+      <rect x="360" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="370" y="140" width="7" height="44" rx="3.5" fill="#6366f1"/>
+      <rect x="380" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="390" y="145" width="7" height="39" rx="3.5" fill="#6366f1"/>
+      <rect x="400" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="410" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="420" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="430" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="440" y="150" width="7" height="34" rx="3.5" fill="#6366f1"/>
+      <rect x="450" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="460" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="470" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="480" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="490" y="174" width="7" height="10" rx="3" fill="#e2e8f0"/>
+      <rect x="500" y="140" width="7" height="44" rx="3.5" fill="#6366f1"/>
+      <rect x="510" y="146" width="7" height="38" rx="3.5" fill="#6366f1"/>
+
+      <!-- Bottom Timeline Dates -->
+      <text x="0" y="212" class="mono" font-size="11" fill="#64748b">Oct 2025</text>
+      <text x="260" y="212" class="mono" font-size="11" fill="#64748b" text-anchor="middle">--- avg 28 / week</text>
+      <text x="520" y="212" class="mono" font-size="11" fill="#64748b" text-anchor="end">now</text>
+    </g>
+  </g>
+</svg>

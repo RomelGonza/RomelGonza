@@ -1,0 +1,49 @@
+name: Profilescape
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Daily at 03:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profilescape.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profilescape
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: chethandvg/profilescape@v1
+        with:
+          cards: stats,3d,languages,stack
+          config: |
+            {
+              "options": {
+                "stack": {
+                  "icons": [
+                    "python",
+                    "typescript",
+                    "nextdotjs",
+                    "react",
+                    "nodedotjs",
+                    "pyspark",
+                    "apachespark",
+                    "postgresql",
+                    "supabase",
+                    "docker",
+                    "scikitlearn",
+                    "linux",
+                    "git",
+                    "tailwindcss"
+                  ],
+                  "perRow": 7
+                }
+              }
+            }

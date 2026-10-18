@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-labelledby="hero-title-light">
   <title id="hero-title-light">Romel Gonzalo Quispe Valero — Data Scientist &amp; Software Architect</title>
-  <desc>Statistical &amp; Informatics Engineer · Big Data &amp; AI · Full-Stack Architect</desc>
+  <desc>Big Data Distribuido · Machine Learning &amp; AI · Full-Stack Cloud Architect</desc>
   <defs>
     <clipPath id="h-clip-light">
       <rect width="1200" height="400" rx="20"/>
@@ -66,13 +66,13 @@
       </text>
     </g>
 
-    <!-- Dual Degree & Bio Headline -->
+    <!-- Professional Focus & Specialization -->
     <g transform="translate(0, 122)">
       <text x="0" y="0" fill="#0284c7" font-size="16.5" font-weight="600" class="sans">
-        Ing. Estadístico e Informático (UNA Puno) <tspan fill="#94a3b8">·</tspan> Administrador Industrial (SENATI)
+        Distributed Big Data (PySpark) <tspan fill="#94a3b8">·</tspan> Machine Learning (Scopus) <tspan fill="#94a3b8">·</tspan> Full-Stack Cloud (Next.js, Supabase)
       </text>
       <text x="0" y="28" fill="#475569" font-size="14.5" class="sans">
-        Especializado en Big Data distribuido (PySpark, SparkSQL), Machine Learning ensemble (Scopus) y arquitecturas Full-Stack (Next.js, Supabase).
+        Diseñando sistemas robustos de alto rendimiento, procesamiento distribuido en clúster y modelos predictivos aplicados.
       </text>
     </g>
 
