@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" fill="none">
+  <defs>
+    <!-- Background Card Gradient -->
+    <linearGradient id="card-border-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#e2e8f0" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Radar Area Gradient -->
+    <radialGradient id="radar-glow-light" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#0284c7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.05" />
+    </radialGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="node-glow-light" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .label { font-size: 11px; fill: #475569; font-weight: 600; }
+    .val { font-size: 10px; fill: #0284c7; font-weight: 700; }
+  </style>
+
+  <!-- Card Base -->
+  <rect width="520" height="340" rx="16" fill="#f8fafc" stroke="url(#card-border-light)" stroke-width="1.2" />
+
+  <!-- Card Header -->
+  <g transform="translate(24, 28)">
+    <text x="0" y="0" fill="#059669" font-size="11" font-weight="700" class="mono" letter-spacing="1">● TELEMETRY // CORE_SIGNALS</text>
+    <text x="0" y="16" fill="#94a3b8" font-size="10" class="mono">STATUS: HEALTHY · ACCURACY: 99.4%</text>
+  </g>
+
+  <!-- Radar Grid (Center at 260, 185, R=100) -->
+  <g stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3">
+    <!-- R=100 -->
+    <polygon points="260,85 346.6,135 346.6,235 260,285 173.4,235 173.4,135" />
+    <!-- R=80 -->
+    <polygon points="260,105 329.3,145 329.3,225 260,265 190.7,225 190.7,145" />
+    <!-- R=60 -->
+    <polygon points="260,125 312,155 312,215 260,245 208,215 208,155" />
+    <!-- R=40 -->
+    <polygon points="260,145 294.6,165 294.6,205 260,225 225.4,205 225.4,165" />
+    
+    <!-- Axis Spokes -->
+    <line x1="260" y1="185" x2="260" y2="85" stroke="#e2e8f0" />
+    <line x1="260" y1="185" x2="346.6" y2="135" stroke="#e2e8f0" />
+    <line x1="260" y1="185" x2="346.6" y2="235" stroke="#e2e8f0" />
+    <line x1="260" y1="185" x2="260" y2="285" stroke="#e2e8f0" />
+    <line x1="260" y1="185" x2="173.4" y2="235" stroke="#e2e8f0" />
+    <line x1="260" y1="185" x2="173.4" y2="135" stroke="#e2e8f0" />
+  </g>
+
+  <!-- Data Polygon (Clean Arch: 95%, Full-Stack: 92%, Cloud: 86%, Performance: 90%, DBs: 88%, AI/ML: 92%) -->
+  <polygon points="260,90 339.7,139 334.5,228 260,275 183.8,229 180.3,139" 
+           fill="url(#radar-glow-light)" stroke="#059669" stroke-width="2" />
+
+  <!-- Data Vertices -->
+  <g fill="#059669" filter="url(#node-glow-light)">
+    <circle cx="260" cy="90" r="4" fill="#10b981" />
+    <circle cx="339.7" cy="139" r="4" fill="#0284c7" />
+    <circle cx="334.5" cy="228" r="4" fill="#6366f1" />
+    <circle cx="260" cy="275" r="4" fill="#eab308" />
+    <circle cx="183.8" cy="229" r="4" fill="#0284c7" />
+    <circle cx="180.3" cy="139" r="4" fill="#10b981" />
+  </g>
+
+  <!-- Labels on Axis Ends -->
+  <!-- Top: Architecture -->
+  <text x="260" y="70" text-anchor="middle" class="mono label">
+    CLEAN ARCHITECTURE <tspan class="val">95%</tspan>
+  </text>
+
+  <!-- Top-Right: Full-Stack -->
+  <text x="360" y="130" text-anchor="start" class="mono label">
+    FULL-STACK WEB <tspan class="val">92%</tspan>
+  </text>
+
+  <!-- Bottom-Right: Cloud -->
+  <text x="360" y="244" text-anchor="start" class="mono label">
+    CLOUD &amp; DEVOPS <tspan class="val">86%</tspan>
+  </text>
+
+  <!-- Bottom: Algorithms & Perf -->
+  <text x="260" y="306" text-anchor="middle" class="mono label">
+    PERF &amp; ALGORITHMS <tspan class="val">90%</tspan>
+  </text>
+
+  <!-- Bottom-Left: DBs -->
+  <text x="160" y="244" text-anchor="end" class="mono label">
+    DATABASES &amp; SQL <tspan class="val">88%</tspan>
+  </text>
+
+  <!-- Top-Left: AI/ML -->
+  <text x="160" y="130" text-anchor="end" class="mono label">
+    AI &amp; MACHINE LEARNING <tspan class="val">92%</tspan>
+  </text>
+</svg>

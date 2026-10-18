@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" width="100%" height="280" fill="none">
+  <defs>
+    <linearGradient id="term-border-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#272a30" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Terminal Window Outer Container -->
+  <rect width="920" height="280" rx="14" fill="#0c0d12" stroke="url(#term-border-dark)" stroke-width="1.2" />
+
+  <!-- Terminal Header Bar -->
+  <rect width="920" height="38" rx="14" fill="#14161f" />
+  <rect y="24" width="920" height="14" fill="#14161f" />
+  <line x1="0" y1="38" x2="920" y2="38" stroke="#222530" stroke-width="1" />
+
+  <!-- Window Control Buttons (macOS / Linux style) -->
+  <circle cx="24" cy="19" r="6" fill="#ff5f56" />
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e" />
+  <circle cx="64" cy="19" r="6" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="460" y="23" fill="#818898" font-size="11.5" font-weight="600" class="mono" text-anchor="middle">
+    romel@workstation: ~/portfolio &nbsp;—&nbsp; zsh (80x24)
+  </text>
+
+  <!-- Terminal Content Body -->
+  <g transform="translate(32, 70)">
+    <!-- Command Prompt Line -->
+    <text x="0" y="0" font-size="13" class="mono">
+      <tspan fill="#10b981" font-weight="700">romel@arch-linux</tspan><tspan fill="#64748b">:</tspan><tspan fill="#38bdf8" font-weight="600">~</tspan><tspan fill="#f8fafc">$</tspan> <tspan fill="#fafafa" font-weight="600">whoami --verbose --output=json</tspan>
+    </text>
+
+    <!-- JSON Output Block -->
+    <g transform="translate(14, 26)" font-size="12" class="mono">
+      <text x="0" y="0" fill="#64748b">{</text>
+      
+      <text x="18" y="20">
+        <tspan fill="#38bdf8">"name"</tspan><tspan fill="#64748b">: </tspan><tspan fill="#34d399">"Romel Gonzalo Quispe Valero"</tspan><tspan fill="#64748b">,</tspan>
+      </text>
+
+      <text x="18" y="40">
+        <tspan fill="#38bdf8">"role"</tspan><tspan fill="#64748b">: </tspan><tspan fill="#34d399">"Software Engineer &amp; AI Architect"</tspan><tspan fill="#64748b">,</tspan>
+      </text>
+
+      <text x="18" y="60">
+        <tspan fill="#38bdf8">"location"</tspan><tspan fill="#64748b">: </tspan><tspan fill="#fef08a">"Lima, Peru (GMT-5)"</tspan><tspan fill="#64748b">,</tspan>
+      </text>
+
+      <text x="18" y="80">
+        <tspan fill="#38bdf8">"status"</tspan><tspan fill="#64748b">: </tspan><tspan fill="#a7f3d0">"Available for high-impact opportunities"</tspan><tspan fill="#64748b">,</tspan>
+      </text>
+
+      <text x="18" y="100">
+        <tspan fill="#38bdf8">"focus"</tspan><tspan fill="#64748b">: [</tspan><tspan fill="#34d399">"Clean Architecture"</tspan><tspan fill="#64748b">, </tspan><tspan fill="#34d399">"Next.js Full-Stack"</tspan><tspan fill="#64748b">, </tspan><tspan fill="#34d399">"Applied AI / RAG"</tspan><tspan fill="#64748b">],</tspan>
+      </text>
+
+      <text x="18" y="120">
+        <tspan fill="#38bdf8">"core_stack"</tspan><tspan fill="#64748b">: [</tspan><tspan fill="#fef08a">"TypeScript"</tspan><tspan fill="#64748b">, </tspan><tspan fill="#fef08a">"Python"</tspan><tspan fill="#64748b">, </tspan><tspan fill="#fef08a">"Supabase"</tspan><tspan fill="#64748b">, </tspan><tspan fill="#fef08a">"Docker"</tspan><tspan fill="#64748b">]</tspan>
+      </text>
+
+      <text x="0" y="140" fill="#64748b">}</text>
+    </g>
+
+    <!-- Pulsing Cursor Prompt -->
+    <g transform="translate(0, 192)">
+      <text x="0" y="0" font-size="13" class="mono">
+        <tspan fill="#10b981" font-weight="700">romel@arch-linux</tspan><tspan fill="#64748b">:</tspan><tspan fill="#38bdf8" font-weight="600">~</tspan><tspan fill="#f8fafc">$</tspan> <tspan fill="#38bdf8">_</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

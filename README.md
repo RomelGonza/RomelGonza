@@ -1,34 +1,33 @@
 <div align="center">
 
-<!-- ── AMBIENT HERO BANNER (ADAPTIVE DARK/LIGHT) ── -->
+<!-- ── CLI BANNER HEADER (ADAPTIVE DARK/LIGHT) ── -->
 <a href="https://github.com/RomelGonza">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img src="assets/banner-dark.svg" width="960" alt="Romel Gonzalo Quispe Valero — Software Engineer & AI Engineer">
+    <img src="assets/banner-dark.svg" width="960" alt="Romel Gonzalo Quispe Valero — Software Engineer & AI Architect">
   </picture>
 </a>
 
 <br>
 
-<!-- ── DYNAMIC TYPING HEADLINE ── -->
+<!-- ── TERMINAL TYPING COMMAND PROMPT ── -->
 <a href="https://github.com/RomelGonza">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=860&lines=Software+Engineer+%7C+AI+Engineer+%7C+FullStack+Developer;Clean+Architecture+%E2%80%A2+High+Performance+%E2%80%A2+AI+Systems;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+Supabase+%E2%80%A2+Cloud;Building+scalable+systems+from+Lima%2C+Peru" alt="Typing Headline">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=10B981&center=true&vCenter=true&width=880&lines=romel%40arch-system%3A~%24+.%2Finit_session.sh+--env%3Dproduction;%3E%3E+Identity%3A+Software+Engineer+%26+AI+Architect;%3E%3E+Core+Stack%3A+TypeScript+%E2%80%A2+Python+%E2%80%A2+Next.js+%E2%80%A2+PyTorch;%3E%3E+Telemetry%3A+Lima%2C+Peru+(GMT-5)+%7C+Available+for+work" alt="Terminal Command Typing">
 </a>
 
-<!-- ── QUICK LINKS & BADGES DOCK ── -->
+<!-- ── QUICK CLI DOCK BADGES ── -->
 <p align="center">
   <a href="mailto:Logonza64@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Logonza64%40gmail.com-09090b?style=flat-square&logo=gmail&logoColor=10b981&borderColor=272a30" alt="Email" />
-  </a>
+    <img src="https://img.shields.io/badge/mail--to-Logonza64%40gmail.com-09090b?style=for-the-badge&logo=gmail&logoColor=10b981" alt="Email" />
+  </a>&nbsp;
   <a href="https://linkedin.com/in/romel-gonzalo">
-    <img src="https://img.shields.io/badge/LinkedIn-romel--gonzalo-09090b?style=flat-square&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" />
-  </a>
+    <img src="https://img.shields.io/badge/linkedin-romel--gonzalo-09090b?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" />
+  </a>&nbsp;
   <a href="https://github.com/RomelGonza">
-    <img src="https://img.shields.io/badge/GitHub-RomelGonza-09090b?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-%E2%97%8F%20Available%20for%20work-09090b?style=flat-square&logoColor=10b981" alt="Available for work" />
-  <img src="https://img.shields.io/badge/Location-Lima%2C%20Per%C3%BA%20(GMT--5)-09090b?style=flat-square&logo=googlemaps&logoColor=38bdf8" alt="Lima, Perú" />
+    <img src="https://img.shields.io/badge/github-RomelGonza-09090b?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  </a>&nbsp;
+  <img src="https://img.shields.io/badge/status-%E2%97%8F%20ready-09090b?style=for-the-badge&logoColor=10b981" alt="Ready" />
 </p>
 
 <!-- ── AMBIENT DIVIDER ── -->
@@ -38,45 +37,16 @@
 
 </div>
 
-<!-- ── SECTION: WHOAMI & VALUE PROPOSITION ── -->
-### `❯ whoami`
+<!-- ── COMMAND 1: WHOAMI TERMINAL ── -->
+## `$ whoami --verbose`
 
-Desarrollador de software enfocado en **alto rendimiento**, **arquitectura limpia** y **experiencias web modernas**. Apasionado por la intersección entre ingeniería de software rigurosa, modelos de inteligencia artificial aplicados y diseño de interfaces con telemetría precisa y microinteracciones fluidas.
-
-<br>
-
-<!-- ── 3-COLUMN PILLARS TABLE ── -->
-<table width="100%" align="center">
-  <tr>
-    <td width="33.33%" align="center" valign="top">
-      <br>
-      <img src="assets/icon-arch.svg" width="46" height="46" alt="Core & Architecture" /><br><br>
-      <strong>CORE & ARCHITECTURE</strong><br>
-      <sub><code>Clean Architecture · Performance</code></sub>
-      <p align="left">
-        Diseño de sistemas mantenibles, microservicios y APIs tipadas con TypeScript y Python. Énfasis en separación de responsabilidades y modularidad.
-      </p>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <br>
-      <img src="assets/icon-ai.svg" width="46" height="46" alt="Intelligence & Data" /><br><br>
-      <strong>INTELLIGENCE & DATA</strong><br>
-      <sub><code>Machine Learning · RAG · Analytics</code></sub>
-      <p align="left">
-        Pipelines analíticos, integración de modelos LLM / RAG, redes neuronales profundas con PyTorch y evaluación empírica sobre datos reales.
-      </p>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <br>
-      <img src="assets/icon-cloud.svg" width="46" height="46" alt="Cloud & Full-Stack" /><br><br>
-      <strong>CLOUD & FULL-STACK</strong><br>
-      <sub><code>Next.js · Supabase · Cloud Native</code></sub>
-      <p align="left">
-        Aplicaciones web reactivas en Next.js (App Router), autenticación, Postgres con Supabase, contenedores Docker y flujos CI/CD automatizados.
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/whoami-terminal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/whoami-terminal-light.svg">
+    <img src="assets/whoami-terminal-dark.svg" width="920" alt="Terminal output for whoami command">
+  </picture>
+</p>
 
 <br>
 
@@ -84,43 +54,51 @@ Desarrollador de software enfocado en **alto rendimiento**, **arquitectura limpi
   <img src="assets/divider.svg" width="96%" alt="" />
 </div>
 
-<!-- ── SECTION: TECH STACK ── -->
-### `❯ cat /etc/stack.config`
+<!-- ── COMMAND 2: CAT TECH-STACK.YAML ── -->
+## `$ cat /etc/tech-stack.yaml`
 
-<table width="100%" align="center">
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Core & Lenguajes</strong><br><br>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=py,ts,js,cpp,r,bash" alt="Python, TypeScript, JavaScript, C++, R, Bash" />
-      </a><br>
-      <sub><code>Python · TypeScript · JavaScript · C++ · R · Bash</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong>Frontend & Modern Web</strong><br><br>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css,threejs" alt="Next.js, React, Tailwind CSS, HTML5, CSS3, Three.js" />
-      </a><br>
-      <sub><code>Next.js · React · Tailwind CSS · HTML5 · CSS3 · Three.js</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Backend & Infraestructura Cloud</strong><br><br>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=nodejs,fastapi,supabase,postgres,docker,git" alt="Node.js, FastAPI, Supabase, PostgreSQL, Docker, Git" />
-      </a><br>
-      <sub><code>Node.js · FastAPI · Supabase · PostgreSQL · Docker · Git</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong>Ciencia de Datos & Machine Learning</strong><br><br>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn" alt="PyTorch, TensorFlow, Scikit-learn" />
-      </a><br>
-      <sub><code>PyTorch · TensorFlow · Scikit-learn · Pandas · NumPy</code></sub>
-    </td>
-  </tr>
+<div align="center">
+
+<table border="1" cellpadding="14" bgcolor="#0e1015">
+  <thead>
+    <tr>
+      <th colspan="2" align="left"><code>romel@workstation:~$ cat /etc/tech-stack.yaml</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="50%" valign="top">
+        <code>├─ ✦ languages_core:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=ts,py,js,cpp,r,bash" alt="TypeScript, Python, JavaScript, C++, R, Bash"><br>
+        <sub><code>TypeScript · Python · JavaScript · C++ · R · Bash</code></sub>
+      </td>
+      <td width="50%" valign="top">
+        <code>├─ ☁ cloud_and_storage:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=supabase,postgres,docker,linux,git,vercel" alt="Supabase, PostgreSQL, Docker, Linux, Git, Vercel"><br>
+        <sub><code>Supabase · PostgreSQL · Docker · Linux · Git · Vercel</code></sub>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <code>├─ ⚛ modern_web_apps:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css,threejs" alt="Next.js, React, Tailwind CSS, HTML5, CSS3, Three.js"><br>
+        <sub><code>Next.js (App Router) · React · Tailwind CSS · Three.js · HTML5/CSS3</code></sub>
+      </td>
+      <td valign="top">
+        <code>╰─ ⌁ intelligence_and_ai:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn" alt="PyTorch, TensorFlow, Scikit-learn"><br>
+        <sub><code>PyTorch · TensorFlow · Scikit-learn · Pandas · NumPy · RAG Architectures</code></sub>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2"><code>status: ready&nbsp;&nbsp;·&nbsp;&nbsp;runtime: node_v22 / python_3.12&nbsp;&nbsp;·&nbsp;&nbsp;env: production</code></td>
+    </tr>
+  </tfoot>
 </table>
+
+</div>
 
 <br>
 
@@ -128,8 +106,29 @@ Desarrollador de software enfocado en **alto rendimiento**, **arquitectura limpi
   <img src="assets/divider.svg" width="96%" alt="" />
 </div>
 
-<!-- ── SECTION: TELEMETRY & GITHUB METRICS ── -->
-### `❯ git status --telemetry`
+<!-- ── COMMAND 3: TELEMETRY RADAR ── -->
+## `$ kubectl get telemetry --namespace=competencies`
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
+    <img src="assets/radar-dark.svg" width="520" alt="Telemetry Radar Chart">
+  </picture>
+</p>
+
+<p align="center">
+  <sub><code>signals: clean_architecture(95%) · full_stack(92%) · applied_ai(92%) · algorithms(90%) · status: optimal</code></sub>
+</p>
+
+<br>
+
+<div align="center">
+  <img src="assets/divider.svg" width="96%" alt="" />
+</div>
+
+<!-- ── COMMAND 4: GIT STATUS TELEMETRY ── -->
+## `$ git status --telemetry --summary`
 
 <div align="center">
 
@@ -161,14 +160,28 @@ Desarrollador de software enfocado en **alto rendimiento**, **arquitectura limpi
   <img src="assets/divider.svg" width="96%" alt="" />
 </div>
 
-<!-- ── FOOTER SIGNATURE ── -->
+<!-- ── COMMAND 5: CONNECT ── -->
+## `$ ./connect.sh --socials`
+
 <div align="center">
 
-```
-// Architecture with precision · AI with purpose · Web with fluidity
-// Romel Gonzalo Quispe Valero · @RomelGonza · Lima, Perú
+<a href="mailto:Logonza64@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>&nbsp;&nbsp;
+<a href="https://linkedin.com/in/romel-gonzalo">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>&nbsp;&nbsp;
+<a href="https://github.com/RomelGonza">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+
+<br><br>
+
+```bash
+# Clone contact payload & initiate handshake:
+curl -s https://github.com/RomelGonza | grep "available"
 ```
 
-<sub>Diseñado con la estética técnica y atmósfera ambiental de mi portafolio web.</sub>
+<sub>Hecho con precisión técnica y arquitectura limpia · Romel Gonzalo Quispe Valero · Lima, Perú</sub>
 
 </div>
