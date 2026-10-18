@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="36" viewBox="0 0 138 36" fill="none">
+  <rect width="138" height="36" rx="18" fill="#131722" stroke="#232838" stroke-width="1"/>
+  <path d="M19.5 15.5H23V26.5H19.5V15.5ZM21.25 10C22.35 10 23.25 10.9 23.25 12C23.25 13.1 22.35 14 21.25 14C20.15 14 19.25 13.1 19.25 12C19.25 10.9 20.15 10 21.25 10ZM24.5 15.5H27.8V17H27.85C28.3 16.15 29.4 15.25 31 15.25C34.4 15.25 35 17.5 35 20.4V26.5H31.5V21C31.5 19.7 31.47 18 29.7 18C27.9 18 27.62 19.4 27.62 20.9V26.5H24.5V15.5Z" fill="#38BDF8"/>
+  <text x="44" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">LinkedIn</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-labelledby="r4-title">
+  <title id="r4-title">Plataforma Web3 y Verificación Criptográfica en Blockchain</title>
+  <defs>
+    <clipPath id="r4-clip"><rect width="400" height="200" rx="16"/></clipPath>
+    <radialGradient id="r4-glow" cx="0" cy="0" r="1">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="r4-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+  </style>
+
+  <g clip-path="url(#r4-clip)">
+    <rect width="400" height="200" fill="#11141D"/>
+    <rect width="400" height="200" fill="url(#r4-glow)"/>
+    <rect width="400" height="3" fill="url(#r4-accent)"/>
+  </g>
+
+  <!-- Top Category & Tag Pill -->
+  <text x="24" y="38" class="mono" font-size="11" font-weight="700" letter-spacing="1.4" fill="#c084fc">WEB3 · CRYPTOGRAPHY</text>
+  <rect x="272" y="23" width="104" height="22" rx="11" fill="#171B28" stroke="#232838"/>
+  <text x="324" y="38" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#a78bfa">Polygon Red</text>
+
+  <!-- Title -->
+  <text x="24" y="70" class="sans" font-size="17" font-weight="700" fill="#E6E8F0" letter-spacing="-0.3">
+    web3-verificacion-polygon
+  </text>
+
+  <!-- Description -->
+  <text x="24" y="98" class="sans" font-size="12.5" fill="#8B93A7">Emisión y auditoría con anclaje por lotes</text>
+  <text x="24" y="117" class="sans" font-size="12.5" fill="#8B93A7">mediante árboles de Merkle y contratos Solidity.</text>
+  <text x="24" y="136" class="sans" font-size="12.5" fill="#8B93A7">Next.js 15, Viem, Supabase, OAuth y Docker.</text>
+
+  <!-- Bottom Divider & Meta -->
+  <line x1="24" y1="156" x2="376" y2="156" stroke="#232838"/>
+  <circle cx="30" cy="176" r="5" fill="#AA6746"/>
+  <text x="42" y="180" class="mono" font-size="12" fill="#E6E8F0">Solidity</text>
+
+  <text x="140" y="180" class="mono" font-size="11" fill="#c084fc">● Merkle Trees</text>
+  <text x="376" y="180" text-anchor="end" class="mono" font-size="11" fill="#8B93A7">On-Chain</text>
+
+  <rect x=".5" y=".5" width="399" height="199" rx="16" fill="none" stroke="#232838"/>
+</svg>

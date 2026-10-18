@@ -1,187 +1,146 @@
-<div align="center">
+<!--
+  Romel Gonzalo Quispe Valero · GitHub Profile
+  Abstracted from the Profilescape card architecture (https://github.com/chethandvg)
+  Telemetry, achievements and projects synced directly via Supabase
+-->
 
-<!-- ── CLI BANNER HEADER (ADAPTIVE DARK/LIGHT) ── -->
-<a href="https://github.com/RomelGonza">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img src="assets/banner-dark.svg" width="960" alt="Romel Gonzalo Quispe Valero — Software Engineer & AI Architect">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <img src="assets/hero-light.svg" alt="Romel Gonzalo Quispe Valero: Data Scientist &amp; Software Architect" width="100%" />
+</picture>
 
-<br>
-
-<!-- ── TERMINAL TYPING COMMAND PROMPT ── -->
-<a href="https://github.com/RomelGonza">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=10B981&center=true&vCenter=true&width=880&lines=romel%40arch-system%3A~%24+.%2Finit_session.sh+--env%3Dproduction;%3E%3E+Identity%3A+Software+Engineer+%26+AI+Architect;%3E%3E+Core+Stack%3A+TypeScript+%E2%80%A2+Python+%E2%80%A2+Next.js+%E2%80%A2+PyTorch;%3E%3E+Telemetry%3A+Lima%2C+Peru+(GMT-5)+%7C+Available+for+work" alt="Terminal Command Typing">
-</a>
-
-<!-- ── QUICK CLI DOCK BADGES ── -->
 <p align="center">
-  <a href="mailto:Logonza64@gmail.com">
-    <img src="https://img.shields.io/badge/mail--to-Logonza64%40gmail.com-09090b?style=for-the-badge&logo=gmail&logoColor=10b981" alt="Email" />
-  </a>&nbsp;
-  <a href="https://linkedin.com/in/romel-gonzalo">
-    <img src="https://img.shields.io/badge/linkedin-romel--gonzalo-09090b?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" />
-  </a>&nbsp;
   <a href="https://github.com/RomelGonza">
-    <img src="https://img.shields.io/badge/github-RomelGonza-09090b?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
-  </a>&nbsp;
-  <img src="https://img.shields.io/badge/status-%E2%97%8F%20ready-09090b?style=for-the-badge&logoColor=10b981" alt="Ready" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/social-github-dark.svg" />
+      <img src="assets/social-github-light.svg" alt="GitHub" />
+    </picture>
+  </a>
+  <a href="https://linkedin.com/in/gonza-qval">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/social-linkedin-dark.svg" />
+      <img src="assets/social-linkedin-light.svg" alt="LinkedIn" />
+    </picture>
+  </a>
+  <a href="mailto:Logonza64@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/social-email-dark.svg" />
+      <img src="assets/social-email-light.svg" alt="Email" />
+    </picture>
+  </a>
 </p>
 
-<!-- ── AMBIENT DIVIDER ── -->
-<p align="center">
-  <img src="assets/divider.svg" width="96%" alt="" />
-</p>
+### About
 
-</div>
+Egresado de **Ingeniería Estadística e Informática (UNA Puno)** y Titulado en **Administración Industrial (SENATI)**. Especializado en **Ciencia de Datos**, **Big Data distribuido (PySpark, SparkSQL, Parquet)** y **Arquitectura de Software Full-Stack (Next.js, TypeScript, PostgreSQL, Supabase, Docker)**.
 
-<!-- ── COMMAND 1: WHOAMI TERMINAL ── -->
-## `$ whoami --verbose`
+Reconocido como **Galactic Problem Solver** en *NASA International Space Apps Challenge 2024* y **Mención Honrosa** en *ICPC South America Finals 2024*. Autor principal de investigación científica indexada en **Scopus / SciELO** sobre modelos ensemble predictivos aplicados a series temporales agroclimáticas.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/whoami-terminal-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/whoami-terminal-light.svg">
-    <img src="assets/whoami-terminal-dark.svg" width="920" alt="Terminal output for whoami command">
-  </picture>
-</p>
-
-<br>
-
-<div align="center">
-  <img src="assets/divider.svg" width="96%" alt="" />
-</div>
-
-<!-- ── COMMAND 2: CAT TECH-STACK.YAML ── -->
-## `$ cat /etc/tech-stack.yaml`
-
-<div align="center">
-
-<table border="1" cellpadding="14" bgcolor="#0e1015">
-  <thead>
-    <tr>
-      <th colspan="2" align="left"><code>romel@workstation:~$ cat /etc/tech-stack.yaml</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="50%" valign="top">
-        <code>├─ ✦ languages_core:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=ts,py,js,cpp,r,bash" alt="TypeScript, Python, JavaScript, C++, R, Bash"><br>
-        <sub><code>TypeScript · Python · JavaScript · C++ · R · Bash</code></sub>
-      </td>
-      <td width="50%" valign="top">
-        <code>├─ ☁ cloud_and_storage:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=supabase,postgres,docker,linux,git,vercel" alt="Supabase, PostgreSQL, Docker, Linux, Git, Vercel"><br>
-        <sub><code>Supabase · PostgreSQL · Docker · Linux · Git · Vercel</code></sub>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        <code>├─ ⚛ modern_web_apps:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css,threejs" alt="Next.js, React, Tailwind CSS, HTML5, CSS3, Three.js"><br>
-        <sub><code>Next.js (App Router) · React · Tailwind CSS · Three.js · HTML5/CSS3</code></sub>
-      </td>
-      <td valign="top">
-        <code>╰─ ⌁ intelligence_and_ai:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn" alt="PyTorch, TensorFlow, Scikit-learn"><br>
-        <sub><code>PyTorch · TensorFlow · Scikit-learn · Pandas · NumPy · RAG Architectures</code></sub>
-      </td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="2"><code>status: ready&nbsp;&nbsp;·&nbsp;&nbsp;runtime: node_v22 / python_3.12&nbsp;&nbsp;·&nbsp;&nbsp;env: production</code></td>
-    </tr>
-  </tfoot>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Building</b><br/>
+      <sub>Arquitecturas Full-Stack con Next.js 15, PostgreSQL y Supabase; plataformas institucionales con RLS y certificación criptográfica QR.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Exploring</b><br/>
+      <sub>Pipelines distribuidos de curación para LLMs con PySpark (UNI 20/20), modelado multi-horizonte con Random Forest / XGBoost y batch anchoring en Polygon.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Looking for</b><br/>
+      <sub>Equipos ambiciosos y roles de alto impacto en Ciencia de Datos, Arquitectura de Software y Sistemas Distribuidos.</sub>
+    </td>
+  </tr>
 </table>
 
-</div>
+### Featured work
 
-<br>
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://doi.org/10.18271/ria.2026.849">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/repo-frost-prediction-dark.svg" />
+        <img src="assets/repo-frost-prediction-light.svg" alt="Predicción de Heladas Scopus" width="100%" />
+      </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/repo-bigdata-llm-dark.svg" />
+        <img src="assets/repo-bigdata-llm-light.svg" alt="Pipeline Big Data LLM UNI" width="100%" />
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://eventosdii.vridevops.site/home">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/repo-vri-platform-dark.svg" />
+        <img src="assets/repo-vri-platform-light.svg" alt="Plataforma VRI UNA Puno" width="100%" />
+      </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://cursos.vridevops.site/">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/repo-blockchain-web3-dark.svg" />
+        <img src="assets/repo-blockchain-web3-light.svg" alt="Plataforma Web3 Polygon" width="100%" />
+      </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="assets/divider.svg" width="96%" alt="" />
-</div>
-
-<!-- ── COMMAND 3: TELEMETRY RADAR ── -->
-## `$ kubectl get telemetry --namespace=competencies`
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/radar-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-    <img src="assets/radar-dark.svg" width="520" alt="Telemetry Radar Chart">
-  </picture>
-</p>
-
-<p align="center">
-  <sub><code>signals: clean_architecture(95%) · full_stack(92%) · applied_ai(92%) · algorithms(90%) · status: optimal</code></sub>
-</p>
-
-<br>
-
-<div align="center">
-  <img src="assets/divider.svg" width="96%" alt="" />
-</div>
-
-<!-- ── COMMAND 4: GIT STATUS TELEMETRY ── -->
-## `$ git status --telemetry --summary`
-
-<div align="center">
+### Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=RomelGonza&show_icons=true&theme=transparent&bg_color=09090b&title_color=38bdf8&text_color=a1a1aa&icon_color=10b981&border_color=272a30&hide_border=false">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=RomelGonza&show_icons=true&theme=transparent&bg_color=f8fafc&title_color=0284c7&text_color=475569&icon_color=059669&border_color=e2e8f0&hide_border=false">
-  <img src="https://github-readme-stats.vercel.app/api?username=RomelGonza&show_icons=true&theme=transparent&bg_color=09090b&title_color=38bdf8&text_color=a1a1aa&icon_color=10b981&border_color=272a30" alt="GitHub Stats">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
+  <img src="assets/stack-light.svg" alt="Stack tecnológico sincronizado desde Supabase" width="100%" />
 </picture>
-&nbsp;
+
+### Activity
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RomelGonza&layout=compact&bg_color=09090b&title_color=38bdf8&text_color=a1a1aa&border_color=272a30&hide_border=false">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RomelGonza&layout=compact&bg_color=f8fafc&title_color=0284c7&text_color=475569&border_color=e2e8f0&hide_border=false">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomelGonza&layout=compact&bg_color=09090b&title_color=38bdf8&text_color=a1a1aa&border_color=272a30" alt="Top Languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=RomelGonza&show_icons=true&theme=transparent&bg_color=0f121a&title_color=38bdf8&text_color=a1a1aa&icon_color=10b981&border_color=232838&hide_border=false" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=RomelGonza&show_icons=true&theme=transparent&bg_color=f8fafc&title_color=0284c7&text_color=475569&icon_color=059669&border_color=e2e8f0&hide_border=false" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RomelGonza&show_icons=true&theme=transparent&bg_color=0f121a&title_color=38bdf8&text_color=a1a1aa&icon_color=10b981&border_color=232838" alt="GitHub Activity" width="100%" />
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=RomelGonza&theme=dark&background=09090B&border=272A30&stroke=272A30&ring=10B981&fire=38BDF8&currStreakNum=FAFAFA&sideNums=FAFAFA&currStreakLabel=10B981&sideLabels=38BDF8">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=RomelGonza&theme=light&background=F8FAFC&border=E2E8F0&stroke=E2E8F0&ring=059669&fire=0284C7&currStreakNum=09090B&sideNums=09090B&currStreakLabel=059669&sideLabels=0284C7">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RomelGonza&theme=dark&background=09090B&border=272A30&stroke=272A30&ring=10B981&fire=38BDF8&currStreakNum=FAFAFA&sideNums=FAFAFA&currStreakLabel=10B981&sideLabels=38BDF8" alt="GitHub Streak">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RomelGonza&layout=compact&bg_color=0f121a&title_color=38bdf8&text_color=a1a1aa&border_color=232838&hide_border=false" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RomelGonza&layout=compact&bg_color=f8fafc&title_color=0284c7&text_color=475569&border_color=e2e8f0&hide_border=false" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RomelGonza&layout=compact&bg_color=0f121a&title_color=38bdf8&text_color=a1a1aa&border_color=232838" alt="Top Languages" width="100%" />
 </picture>
-
-</div>
-
-<br>
-
-<div align="center">
-  <img src="assets/divider.svg" width="96%" alt="" />
-</div>
-
-<!-- ── COMMAND 5: CONNECT ── -->
-## `$ ./connect.sh --socials`
-
-<div align="center">
-
-<a href="mailto:Logonza64@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-</a>&nbsp;&nbsp;
-<a href="https://linkedin.com/in/romel-gonzalo">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>&nbsp;&nbsp;
-<a href="https://github.com/RomelGonza">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
 
 <br><br>
 
-```bash
-# Clone contact payload & initiate handshake:
-curl -s https://github.com/RomelGonza | grep "available"
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=RomelGonza&theme=dark&background=0F121A&border=232838&stroke=232838&ring=10B981&fire=38BDF8&currStreakNum=FAFAFA&sideNums=FAFAFA&currStreakLabel=10B981&sideLabels=38BDF8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=RomelGonza&theme=light&background=F8FAFC&border=E2E8F0&stroke=E2E8F0&ring=059669&fire=0284C7&currStreakNum=0F172A&sideNums=0F172A&currStreakLabel=059669&sideLabels=0284C7" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RomelGonza&theme=dark&background=0F121A&border=232838&stroke=232838&ring=10B981&fire=38BDF8&currStreakNum=FAFAFA&sideNums=FAFAFA&currStreakLabel=10B981&sideLabels=38BDF8" alt="GitHub Streak" width="100%" />
+</picture>
+
+### Experience
+
+```yaml
+role: Data Scientist & Software Architect
+highlights:
+  - Vicerrectorado de Investigación (UNA Puno) | Sub Unidad de Plataformas de Investigación:
+      - Plataforma institucional web en Next.js, TypeScript y PostgreSQL con Supabase (RLS y OAuth 2.0)
+      - Subsistema de certificación digital con validación criptográfica QR (Certificado N° 088-2026-SG-UNA-PUNO)
+      - Curación y análisis de series temporales agroclimáticas para investigación científica indexada
+  - Empresa Agroindustrial NUTRILAC | Formación Dual SENATI:
+      - Formulación de propuesta Lean Manufacturing y reducción de cuellos de botella operativos
+      - Control Estadístico de Procesos (SPC), metodología 5S y seguimiento de KPIs de producción
+credentials_and_awards:
+  - NASA Space Apps Challenge 2024: Galactic Problem Solver (Earth Observation & Satellite Analytics)
+  - ICPC South America Finals 2024: Mención Honrosa en Algoritmia y Programación Dinámica
+  - Scopus / SciELO Research: Primer Autor Principal (Modelos Ensemble Predictivos · DOI: 10.18271/ria.2026.849)
+  - Universidad Nacional de Ingeniería (UNI PIT): Pipeline Distribuido Big Data para LLMs (Calificación 20/20)
+  - Formación Dual: Ing. Estadística e Informática (UNA Puno) + Titulado en Adm. Industrial (SENATI)
 ```
 
-<sub>Hecho con precisión técnica y arquitectura limpia · Romel Gonzalo Quispe Valero · Lima, Perú</sub>
-
-</div>
+<p align="center"><sub>Estilo y arquitectura de tarjetas inspiradas en <a href="https://github.com/chethandvg">Profilescape</a> · Información sincronizada desde Supabase.</sub></p>

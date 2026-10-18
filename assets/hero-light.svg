@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-labelledby="hero-title-light">
+  <title id="hero-title-light">Romel Gonzalo Quispe Valero — Data Scientist &amp; Software Architect</title>
+  <desc>Statistical &amp; Informatics Engineer · Big Data &amp; AI · Full-Stack Architect</desc>
+  <defs>
+    <clipPath id="h-clip-light">
+      <rect width="1200" height="400" rx="20"/>
+    </clipPath>
+    <linearGradient id="h-bar-light" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <radialGradient id="orb-emerald-light" cx="85%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#059669" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-sky-light" cx="15%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.1"/>
+      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="h-grid-light" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#000000" stroke-opacity="0.035"/>
+      <circle cx="2" cy="2" r="1" fill="#000000" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+  </style>
+
+  <!-- Base Plate & Clip -->
+  <g clip-path="url(#h-clip-light)">
+    <rect width="1200" height="400" fill="#f8fafc"/>
+    <rect width="1200" height="400" fill="url(#h-grid-light)"/>
+    <rect width="1200" height="400" fill="url(#orb-emerald-light)"/>
+    <rect width="1200" height="400" fill="url(#orb-sky-light)"/>
+    <!-- Top Accent Gradient Stripe -->
+    <rect width="1200" height="4" fill="url(#h-bar-light)"/>
+  </g>
+
+  <!-- Outer Structural Border -->
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="19.5" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Content Layout -->
+  <g transform="translate(64, 48)">
+    <!-- Top Pill: Status & Identity -->
+    <g transform="translate(0, 0)">
+      <rect width="470" height="30" rx="15" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="16" cy="15" r="4.5" fill="#059669"/>
+      <circle cx="16" cy="15" r="3" fill="#10b981"/>
+      <text x="30" y="19" fill="#0284c7" font-size="11" font-weight="700" class="mono" letter-spacing="1.2">
+        DATA SCIENTIST &amp; SOFTWARE ARCHITECT
+      </text>
+      <text x="355" y="19" fill="#64748b" font-size="11" class="mono">
+        · PERÚ (GMT-5)
+      </text>
+    </g>
+
+    <!-- Headline Name -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="0" fill="#0f172a" font-size="44" font-weight="800" class="sans" letter-spacing="-1">
+        Romel Gonzalo Quispe Valero
+      </text>
+    </g>
+
+    <!-- Dual Degree & Bio Headline -->
+    <g transform="translate(0, 122)">
+      <text x="0" y="0" fill="#0284c7" font-size="16.5" font-weight="600" class="sans">
+        Ing. Estadístico e Informático (UNA Puno) <tspan fill="#94a3b8">·</tspan> Administrador Industrial (SENATI)
+      </text>
+      <text x="0" y="28" fill="#475569" font-size="14.5" class="sans">
+        Especializado en Big Data distribuido (PySpark, SparkSQL), Machine Learning ensemble (Scopus) y arquitecturas Full-Stack (Next.js, Supabase).
+      </text>
+    </g>
+
+    <!-- Key Credential Chips (Bottom Row) -->
+    <g transform="translate(0, 226)">
+      <!-- NASA Space Apps 2024 -->
+      <g transform="translate(0, 0)">
+        <rect width="235" height="38" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="14" y="17" fill="#d97706" font-size="10" font-weight="700" class="mono">★ NASA SPACE APPS 2024</text>
+        <text x="14" y="30" fill="#1e293b" font-size="11" class="sans">Galactic Problem Solver</text>
+      </g>
+
+      <!-- ICPC South America Finals -->
+      <g transform="translate(250, 0)">
+        <rect width="235" height="38" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="14" y="17" fill="#0284c7" font-size="10" font-weight="700" class="mono">▲ ICPC SOUTH AMERICA</text>
+        <text x="14" y="30" fill="#1e293b" font-size="11" class="sans">Mención Honrosa 2024</text>
+      </g>
+
+      <!-- Scopus Author -->
+      <g transform="translate(500, 0)">
+        <rect width="245" height="38" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="14" y="17" fill="#059669" font-size="10" font-weight="700" class="mono">◆ SCOPUS / SCIELO RESEARCH</text>
+        <text x="14" y="30" fill="#1e293b" font-size="11" class="sans">Primer Autor (Ensemble ML)</text>
+      </g>
+
+      <!-- UNI PIT 20/20 -->
+      <g transform="translate(760, 0)">
+        <rect width="215" height="38" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="14" y="17" fill="#7c3aed" font-size="10" font-weight="700" class="mono">● BIG DATA &amp; LLMS (UNI)</text>
+        <text x="14" y="30" fill="#1e293b" font-size="11" class="sans">Nota Perfecta (20/20)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side Monogram -->
+  <g transform="translate(1090, 48)">
+    <rect width="46" height="46" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="23" y="29" fill="#059669" font-size="15" font-weight="800" class="mono" text-anchor="middle">RG</text>
+  </g>
+</svg>

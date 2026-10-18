@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" fill="none" role="img" aria-labelledby="stack-title">
+  <title id="stack-title">Romel Gonzalo Quispe Valero — Core Tech Stack</title>
+  <defs>
+    <clipPath id="st-clip"><rect width="960" height="280" rx="16"/></clipPath>
+    <radialGradient id="st-glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="st-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .cat-title { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; }
+    .chip-text { font-size: 12px; font-weight: 500; fill: #cbd5e1; }
+  </style>
+
+  <g clip-path="url(#st-clip)">
+    <rect width="960" height="280" fill="#0f121a"/>
+    <rect width="960" height="280" fill="url(#st-glow)"/>
+    <rect width="960" height="3" fill="url(#st-accent)"/>
+  </g>
+  <rect x=".5" y=".5" width="959" height="279" rx="16" fill="none" stroke="#232838"/>
+
+  <!-- Row 1: Languages & Big Data -->
+  <g transform="translate(32, 34)">
+    <!-- Languages -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="mono cat-title" fill="#38bdf8">01 // LANGUAGES &amp; CORE</text>
+      <g transform="translate(0, 14)">
+        <rect width="896" height="34" rx="8" fill="#141824" stroke="#232838"/>
+        <text x="16" y="22" class="mono chip-text">
+          <tspan fill="#34d399">●</tspan> Python &nbsp;·&nbsp;
+          <tspan fill="#38bdf8">●</tspan> TypeScript &nbsp;·&nbsp;
+          <tspan fill="#facc15">●</tspan> JavaScript &nbsp;·&nbsp;
+          <tspan fill="#60a5fa">●</tspan> R &nbsp;·&nbsp;
+          <tspan fill="#f43f5e">●</tspan> SQL &nbsp;·&nbsp;
+          <tspan fill="#a78bfa">●</tspan> C++ &nbsp;·&nbsp;
+          <tspan fill="#94a3b8">●</tspan> Bash
+        </text>
+      </g>
+    </g>
+
+    <!-- Big Data & Distributed -->
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" class="mono cat-title" fill="#f59e0b">02 // BIG DATA &amp; DISTRIBUTED PIPELINES</text>
+      <g transform="translate(0, 14)">
+        <rect width="896" height="34" rx="8" fill="#141824" stroke="#232838"/>
+        <text x="16" y="22" class="mono chip-text">
+          <tspan fill="#f59e0b">●</tspan> PySpark &nbsp;·&nbsp;
+          <tspan fill="#f59e0b">●</tspan> Apache Spark &nbsp;·&nbsp;
+          <tspan fill="#38bdf8">●</tspan> SparkSQL &nbsp;·&nbsp;
+          <tspan fill="#34d399">●</tspan> Catalyst Optimizer &nbsp;·&nbsp;
+          <tspan fill="#facc15">●</tspan> Hadoop &nbsp;·&nbsp;
+          <tspan fill="#a78bfa">●</tspan> Parquet Columnar Storage
+        </text>
+      </g>
+    </g>
+
+    <!-- Machine Learning & FullStack -->
+    <g transform="translate(0, 156)">
+      <text x="0" y="0" class="mono cat-title" fill="#34d399">03 // MACHINE LEARNING &amp; CLOUD ARCHITECTURE</text>
+      <g transform="translate(0, 14)">
+        <rect width="896" height="34" rx="8" fill="#141824" stroke="#232838"/>
+        <text x="16" y="22" class="mono chip-text">
+          <tspan fill="#34d399">●</tspan> Scikit-Learn &nbsp;·&nbsp;
+          <tspan fill="#38bdf8">●</tspan> XGBoost &nbsp;·&nbsp;
+          <tspan fill="#10b981">●</tspan> Random Forest &nbsp;·&nbsp;
+          <tspan fill="#f8fafc">●</tspan> Next.js 15 &nbsp;·&nbsp;
+          <tspan fill="#38bdf8">●</tspan> Supabase (RLS/Auth) &nbsp;·&nbsp;
+          <tspan fill="#60a5fa">●</tspan> PostgreSQL &nbsp;·&nbsp;
+          <tspan fill="#38bdf8">●</tspan> Docker
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
