@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="cloud-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="#818cf8" fill-opacity="0.1" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1" />
+  <!-- Cloud & Container Hex Nodes -->
+  <path d="M16 26.5C14.067 26.5 12.5 24.933 12.5 23C12.5 21.267 13.755 19.824 15.412 19.558C15.828 16.985 18.06 15 20.75 15C22.617 15 24.267 15.955 25.215 17.399C25.885 17.014 26.666 16.792 27.5 16.792C29.742 16.792 31.624 18.397 31.947 20.513C33.433 20.916 34.5 22.259 34.5 23.854C34.5 25.757 32.957 27.3 31.054 27.3H16V26.5Z" stroke="url(#cloud-grad)" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Deployment / Uplink arrow -->
+  <path d="M24 23V33M24 23L21 26M24 23L27 26" stroke="#c084fc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

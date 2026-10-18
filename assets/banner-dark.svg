@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="glow-emerald" cx="82%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#10b981" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="glow-sky" cx="12%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="65%" stop-color="#38bdf8" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Conway / Matrix Grid Pattern -->
+    <pattern id="conway-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06" />
+    </pattern>
+
+    <!-- Linear Shimmer for Borders -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="75%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Pulse filter -->
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .pulse { animation: pulse-dot 2.5s infinite ease-in-out; }
+  </style>
+
+  <!-- Base Plate (Card OLED) -->
+  <rect width="960" height="300" rx="20" fill="#09090b" />
+  
+  <!-- Subtle Grid Texture -->
+  <rect width="960" height="300" rx="20" fill="url(#conway-grid)" />
+
+  <!-- Ambient Glow Layers -->
+  <rect width="960" height="300" rx="20" fill="url(#glow-emerald)" />
+  <rect width="960" height="300" rx="20" fill="url(#glow-sky)" />
+
+  <!-- Outer Border with Subtle Gradient -->
+  <rect x="0.5" y="0.5" width="959" height="299" rx="19.5" stroke="url(#border-grad)" stroke-width="1" />
+
+  <!-- Conway Simulated Active Cells -->
+  <g fill="#10b981" fill-opacity="0.25">
+    <rect x="768" y="48" width="6" height="6" rx="1" />
+    <rect x="774" y="48" width="6" height="6" rx="1" fill-opacity="0.4" />
+    <rect x="780" y="48" width="6" height="6" rx="1" />
+    <rect x="780" y="54" width="6" height="6" rx="1" fill-opacity="0.5" />
+    <rect x="774" y="60" width="6" height="6" rx="1" />
+    <rect x="840" y="96" width="6" height="6" rx="1" fill-opacity="0.3" />
+    <rect x="846" y="96" width="6" height="6" rx="1" fill-opacity="0.6" />
+    <rect x="840" y="102" width="6" height="6" rx="1" fill-opacity="0.4" />
+  </g>
+  <g fill="#38bdf8" fill-opacity="0.2">
+    <rect x="72" y="216" width="6" height="6" rx="1" />
+    <rect x="78" y="216" width="6" height="6" rx="1" fill-opacity="0.45" />
+    <rect x="84" y="222" width="6" height="6" rx="1" fill-opacity="0.3" />
+    <rect x="78" y="228" width="6" height="6" rx="1" />
+  </g>
+
+  <!-- Top Status Bar: Availability Pill -->
+  <g transform="translate(64, 42)">
+    <rect width="276" height="28" rx="14" fill="#10b981" fill-opacity="0.08" stroke="#10b981" stroke-opacity="0.28" stroke-width="1" />
+    <!-- Glowing green dot -->
+    <circle cx="16" cy="14" r="4.5" fill="#10b981" class="pulse" filter="url(#soft-glow)" />
+    <circle cx="16" cy="14" r="3" fill="#34d399" />
+    <text x="28" y="18" fill="#34d399" font-size="10.5" font-weight="600" class="mono" letter-spacing="0.8">AVAILABLE FOR WORK · LIMA (GMT-5)</text>
+  </g>
+
+  <!-- Terminal Prompt -->
+  <g transform="translate(64, 102)">
+    <text x="0" y="0" fill="#38bdf8" font-size="13" font-weight="600" class="mono" letter-spacing="0.5">❯ whoami</text>
+  </g>
+
+  <!-- Main Headline Name -->
+  <g transform="translate(64, 146)">
+    <text x="0" y="0" fill="#ffffff" font-size="36" font-weight="800" class="sans" letter-spacing="-0.8">Romel Gonzalo Quispe Valero</text>
+  </g>
+
+  <!-- Role & Hierarchy -->
+  <g transform="translate(64, 180)">
+    <text x="0" y="0" fill="#e2e8f0" font-size="15" font-weight="500" class="sans" letter-spacing="0.1">
+      Software Engineer <tspan fill="#64748b" font-weight="300">|</tspan> AI Engineer <tspan fill="#64748b" font-weight="300">|</tspan> FullStack Developer
+    </text>
+  </g>
+
+  <!-- Telemetry Tags Line -->
+  <g transform="translate(64, 240)">
+    <!-- Thin line separator -->
+    <line x1="0" y1="-18" x2="832" y2="-18" stroke="#272a30" stroke-width="1" stroke-dasharray="4 4" />
+
+    <text x="0" y="0" fill="#94a3b8" font-size="11" font-weight="500" class="mono" letter-spacing="0.4">
+      <tspan fill="#10b981">●</tspan> ARCH: Clean Architecture &amp; High Perf &nbsp;&nbsp;·&nbsp;&nbsp;
+      <tspan fill="#38bdf8">▲</tspan> STACK: Next.js · Supabase · Python · PyTorch &nbsp;&nbsp;·&nbsp;&nbsp;
+      <tspan fill="#a78bfa">◆</tspan> LOC: Lima, Perú
+    </text>
+  </g>
+
+  <!-- Visual Monogram Brand Tag (Top Right) -->
+  <g transform="translate(850, 42)">
+    <rect width="46" height="46" rx="12" fill="#16181d" stroke="#272a30" stroke-width="1" />
+    <text x="23" y="29" fill="#38bdf8" font-size="16" font-weight="700" class="mono" text-anchor="middle">RG</text>
+  </g>
+</svg>

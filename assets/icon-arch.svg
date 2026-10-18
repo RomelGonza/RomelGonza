@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="arch-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+  <!-- Isometric Layers / Architecture Stack -->
+  <path d="M24 13L35 19L24 25L13 19L24 13Z" stroke="url(#arch-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13 24L24 30L35 24" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+  <path d="M13 29L24 35L35 29" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+</svg>
